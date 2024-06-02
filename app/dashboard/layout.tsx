@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <SideNav />
       </div>
       <div className="flex-group p-6 md:overflow-y-auto md:p-12">
-        {children}{' '}
+        {children}
       </div>
     </div>
   );
